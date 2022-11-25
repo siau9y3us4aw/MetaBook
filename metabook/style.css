@@ -1,0 +1,75 @@
+@import url(./fonts/Open_Sans.zip);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container , body {
+  background: #202020;
+  color: #fff;
+  width: 100%;
+  list-style: none;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 66px;
+  background: #111;
+}
+
+.header strong{
+  color: #FFF;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+}
+
+.header .item ul li .one{
+  position: absolute;
+  left: 1460px;
+  width: 30px;
+  top: 18px;
+  color: #fff;
+}
+.header .item ul li .tow{
+  position: absolute;
+  left: 1400px;
+  width: 30px;
+  color: #fff;
+  top: 18px;
+}
+
+.main{
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+::selection {
+  color: #fff;
+  background: #577e96;
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d; 
+}
