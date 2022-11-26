@@ -1,12 +1,13 @@
 @import url(./fonts/Open_Sans.zip);
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.container , body {
+.container,
+body {
   background: #202020;
   color: #fff;
   width: 100%;
@@ -20,7 +21,7 @@
   background: #111;
 }
 
-.header strong{
+.header strong {
   color: #FFF;
   position: absolute;
   top: 15px;
@@ -28,14 +29,15 @@
   font-size: 30px;
 }
 
-.header .item ul li .one{
+.header .item ul li .one {
   position: absolute;
   left: 1460px;
   width: 30px;
   top: 18px;
   color: #fff;
 }
-.header .item ul li .tow{
+
+.header .item ul li .tow {
   position: absolute;
   left: 1400px;
   width: 30px;
@@ -43,11 +45,27 @@
   top: 18px;
 }
 
-.main{
+.main {
   color: #fff;
   width: 100%;
   height: 100vh;
-  
+
+}
+
+
+.banner {
+  background: #FFF;
+  height: 250px;
+}
+
+.banner .h1-upload__banner {
+  position: absolute;
+  left: 680px;
+  top: 150px;
+  /* user-select: none;  */
+  cursor: pointer;
+  color: #000;
+  border: 2px solid #577e96;
 }
 
 ::selection {
@@ -71,5 +89,79 @@
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #6d6d6d; 
+  background: #6d6d6d;
+}
+
+.closed {
+  color: #fff;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+}
+
+.h1-upload__post {
+  position: absolute;
+  top: 300px;
+  border-radius: 15px;
+  padding: 50px;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  user-select: none;
+  border: 2px solid red;
+}
+
+
+.post .h1-upload__post {
+  position: absolute;
+  top: 300px;
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+  padding: 50px;
+  cursor: pointer;
+  user-select: none;
+  border: 2px solid red;
+}
+
+.wellaper-post {
+  width: 573px;
+  min-height: 465px;
+  height: auto;
+  margin: 20px auto;
+  position: relative;
+  background: rgba(20, 20, 20, 5.2);
+  color: #fff;
+  user-select: none;
+  justify-content: center;
+}
+
+.wellaper-banner{
+  width: 573px;
+  min-height: 465px;
+  height: auto;
+  margin: 20px auto;
+  position: relative;
+  background: rgba(20, 20, 20, 5.2);
+  color: #fff;
+  user-select: none;
+  justify-content: center;
+}
+
+.h1-change{
+  padding: 10px;
+  border: 2px solid red;
+  display: none;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#h1-change{
+  display: none;
+}
+
+#close-banner{
+  display: none;
 }
